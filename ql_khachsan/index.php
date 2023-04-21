@@ -1,38 +1,44 @@
+<?php 
+include ('./connect.php');
+
+?>
+
 <!DOCTYPE html>
 
 <head>
     <meta charset="UTF-8">
-    <title>HTQL Khách Sạn</title>
+    <title>Hệ Thống Quản Lý Khách Sạn</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    
 </head>
 </head>
 
 <body>
     <div id="pageWrapper">
         <div id="header">
-            <img src="images/logo1.png" id="logo">
-            <img src="images/logo2.png" id="logo2">
+            <img src="" id="">
+            <img src="" id="">
             <h2 id="siteTitle2">Hệ Thống Quản Lý Khách Sạn</h2>
         </div>
-        <div class="btn btn-secondary">
-            <a href="index.html" class="btn btn-secondary bg-success ">Trang chủ</a> |
-            <a href="khachhang.html" class="btn btn-primary">Thông Tin khách Hàng</a> |
-            <a href="phong.html" class="btn btn-primary">Quản Lý Phòng Ở</a> |
-            <a href="giaphong.html" class="btn btn-primary">Quản Lý Giá Phòng</a> 
+        <div class="btn-primary">
+            <a href="index.php" class="btn btn-primary bg-success ">Trang chủ</a> |
+            <a href="khachhang.php" class="btn btn-primary">THông Tin Khách Hàng</a> |
+            <a href="phong.php?" class="btn btn-primary">Quản lý Phòng Ở</a> |
+            <a href="giaphong.php" class="btn btn-primary">Quản lý Giá Phòng</a> 
         </div>
         <div>
             <div class="mt-5 text-center ">
-               <div ></div>
+                <div class="font-weight-bold">THÔNG TIN CÁ NHÂN</div>
+                <div class="text-danger">Lý Thị Liên Nhi</div>
+                <div class="text-info">Niên Luận Cơ Sở Công Nghệ Thông Tin</div>
             </div>
             <div class="text-center">
                 <hr>
-                <div class="m-3">Khách Sạn LIÊN NHI</div>
+                <div class="m-3">Copyright&copy;b1910424</div>
             </div>
         </div>
     </div>
